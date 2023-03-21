@@ -9,4 +9,7 @@ class LearnJSController extends Controller
     public function js(){
         return view('learnJs');
     }
+    public function invoice(){
+        return view('invoice');
+    }
 }
